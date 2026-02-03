@@ -123,3 +123,84 @@ This analysis helps stakeholders:
 
 ## ⭐ Note
 This project demonstrates practical data analysis skills, clean coding practices, and business-oriented insights.
+
+# 📘 Chapter 4 – Filtering, Selection & Sorting (Euro 2012)
+
+## 📌 Chapter Overview
+This chapter focuses on applying **filtering**, **column selection**, and **sorting techniques** using Pandas on the Euro 2012 football team statistics dataset. The goal is to extract meaningful insights related to team performance and discipline.
+
+---
+
+## 📂 Dataset Used
+- File Name: `Euro_2012_stats_TEAM.csv`
+- Dataset Type: Football Team Statistics
+- Key Columns Used:
+  - Team
+  - Goals
+  - Yellow Cards
+  - Red Cards
+
+---
+
+## 🛠️ Concepts Covered
+- Column selection
+- Sorting data using single and multiple columns
+- Filtering data using conditions
+- Boolean indexing
+- Applying logical operators (`>`, `>=`, `==`, `&`)
+
+---
+
+## 🔍 Analysis Performed
+
+### 1️⃣ Column Selection
+Selected only relevant columns (`Team`, `Goals`, `Yellow Cards`, `Red Cards`) to simplify analysis and improve readability.
+
+---
+
+### 2️⃣ Sorting Operations
+- Sorted teams based on **Yellow Cards** in descending order
+- Identified:
+  - Top 5 teams with most Yellow Cards
+  - Bottom 5 teams with least Yellow Cards
+
+---
+
+### 3️⃣ Filtering Conditions
+- Listed teams that received **at least one Red Card**
+- Listed teams that received **more than 8 Yellow Cards**
+
+---
+
+## 🧠 Additional Tasks & Insights
+
+### ✅ New Analytical Questions Solved
+1. Top 5 teams with highest number of goals  
+2. Teams that received zero red cards  
+3. Teams with more yellow cards than goals  
+4. Teams sorted by red cards and yellow cards  
+5. Teams with at least 5 goals and fewer than 5 yellow cards  
+
+These tasks demonstrate real-world usage of filtering and sorting techniques.
+
+---
+
+## 💡 Key Insights
+- Teams with higher goals are not always the most disciplined
+- Some teams accumulated more cards than goals, indicating aggressive play
+- Filtering and sorting help quickly identify performance and behavior patterns
+
+---
+
+## 🎯 Learning Outcome
+By the end of this chapter, you can confidently:
+- Filter datasets using conditions
+- Select specific columns for focused analysis
+- Sort data to rank performance metrics
+- Apply Pandas techniques to real-world sports datasets
+
+---
+
+## ⭐ Note
+This chapter is part of a hands-on Pandas learning series designed to build strong foundations in data analysis using real datasets.
+
