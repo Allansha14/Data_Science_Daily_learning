@@ -204,3 +204,60 @@ By the end of this chapter, you can confidently:
 ## ⭐ Note
 This chapter is part of a hands-on Pandas learning series designed to build strong foundations in data analysis using real datasets.
 
+## 📝 Notes – Missing Value Imputation
+
+### 📌 Problem Statement
+The dataset contained missing values in critical columns such as **Salary** and **Age**, which could negatively impact analysis or model training if left untreated.
+
+---
+
+### 🧠 Imputation Strategy Used
+
+#### 1️⃣ Salary Imputation (Department-Based Logic)
+- Missing salary values were imputed using the **average salary of the respective department**
+- Departments considered:
+  - Support
+  - IT Tech
+  - Ops
+- This approach maintains **internal salary consistency** within departments and avoids bias caused by random value assignment
+
+**Logic Applied:**
+
+
+---
+
+#### 2️⃣ Age Imputation (Business-Provided Value)
+- The employee **Matthew** had a missing age value
+- Based on confirmed business input, Matthew’s age was imputed as **27**
+- This is an example of **manual imputation using domain knowledge**
+
+---
+
+### ✅ Validation Checks
+- Verified missing values before and after imputation using `isnull().sum()`
+- Ensured no unintended changes to other records
+- Confirmed dataset integrity after updates
+
+---
+
+### 💡 Why This Approach Is Used
+- Preserves data distribution
+- Avoids data loss from dropping records
+- Aligns with real-world data cleaning practices
+- Ensures dataset is ready for analysis or model training
+
+---
+
+### 🎯 Learning Outcome
+From this task, the following concepts were applied:
+- Handling missing values using conditional filtering
+- Department-based mean imputation
+- Record-level manual imputation
+- Data validation after cleaning
+
+---
+
+### ⭐ Note
+Proper documentation and client approval are essential before applying imputation techniques in real-world projects, especially when dealing with employee or sensitive data.
+
+
